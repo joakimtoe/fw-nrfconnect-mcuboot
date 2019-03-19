@@ -6,6 +6,8 @@
 
 cmake_minimum_required(VERSION 3.8.2)
 
+include(../../../nrf/cmake/boilerplate.cmake)
+
 # Board-specific CONF_FILES should get merged into the build as well.
 #
 # Do this by defining the set_conf_file macro:
